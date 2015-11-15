@@ -1,0 +1,47 @@
+/*
+    [0] http://stackoverflow.com/questions/1712592/variably-modified-array-at-file-scope
+    
+    [1] http://stackoverflow.com/questions/5935933/dynamically-create-an-array-of-strings-with-malloc
+          --> How to dyammically allocate memory for array of strings (pointer to pointers to char) 
+    
+    [2] http://faq.cprogramming.com/cgi-bin/smartfaq.cgi?id=1043284385&answer=1043372399          
+          --> Use fgets() for reading in strings
+          --> User scanf() for reading number inputs from stdin
+        
+        http://stackoverflow.com/questions/28315385/how-does-fgets-keep-track-of-what-line-its-on
+          --> How fgets() keep track of where it is in a file when you use it to read line by line
+    
+    [3] http://www.programmingsimplified.com/c-program-read-file
+          --> Reading from a file using fgets()
+        http://www.codingunit.com/c-tutorial-file-io-using-text-files
+          --> File IO: fopen, fclose, feof, fscanf, fprintf, fgets, fputs, fgetc, fputc
+        https://www.cs.bu.edu/teaching/c/file-io/intro/
+          --> File IO: Stdin/stdout/stderr, bash redirection operator
+          
+    [4] http://www.tutorialspoint.com/c_standard_library/c_function_strtok.htm
+          --> Parsing Strings into tokens
+            ! Notice that NULL gets used as a parameter to strtok() when obtaining the next token
+            
+    [5] https://www.eskimo.com/~scs/cclass/int/sx8.html
+          --> Pointers to pointers basics
+        https://www.eskimo.com/~scs/cclass/int/sx9b.html
+          --> Dynamically allocating multidimensional arrays
+        https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/pointer.html
+          --> Pointers it's relationship to addresses in memory, constant arrays
+          
+    [6] *** When writing a text-parsing function, it might be worthwhile to design a Finite State Machine
+    
+    [7] http://stackoverflow.com/questions/1675351/typedef-struct-vs-struct-definitions
+          --> Typedef Struct
+          --> http://stackoverflow.com/questions/9653072/return-a-struct-from-a-function-in-c
+          --> http://www.tutorialspoint.com/cprogramming/c_typedef.htm  (example)
+    
+    [8] http://www.psych.upenn.edu/~saul/parasite/man/man3/malloc.3.html
+          --> Malloc, Realloc, free, calloc
+              
+          http://stackoverflow.com/questions/448844/variable-sized-arrays-in-c
+          --> Declaring & initializing variable sized int array using calloc()
+          
+    [9] https://msdn.microsoft.com/en-us/library/yeby3zcb%28VS.71%29.aspx
+          --> Discussion about fopen and the various file access type (r,w,t,etc...) 
+*/
